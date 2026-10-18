@@ -1,0 +1,12 @@
+# NewPipeExtractor (Rhino JS engine + protobuf)
+-keep class org.mozilla.javascript.** { *; }
+-keep class org.mozilla.classfile.ClassFileWriter
+-dontwarn org.mozilla.javascript.JavaToJSONConverters
+-dontwarn org.mozilla.javascript.tools.**
+-dontwarn javax.script.**
+-dontwarn jdk.dynalink.**
+-keep class org.schabi.newpipe.extractor.timeago.patterns.** { *; }
+-keep class org.schabi.newpipe.extractor.services.youtube.protos.** { *; }
+-dontwarn com.google.errorprone.annotations.**
+-dontwarn javax.annotation.**
+-dontwarn org.jsoup.**
